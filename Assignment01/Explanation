@@ -1,0 +1,6 @@
+补充说明：
+① Cards里已正确实现了静态方法calculateInitCards
+② GenData类为创建随机的测试数据
+   若没有extra data文件夹，会创建一个并在里面生成20组测试数据（.in文件和.out文件）
+   若有extra data文件夹，则会更新里面的随机数据
+③ Main类进行测试，会输出给定的2组data和随机生成的20组extra data是否通过，并将结果打印至控制台
